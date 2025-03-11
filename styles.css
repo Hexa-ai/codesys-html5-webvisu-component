@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hai-buttonComponent {
+    border: 2px solid gray ; /* Contour gris par défaut */
+    color: black ;
+    text-align: center ;
+    text-decoration: none ;
+    display: inline-block ;
+    font-size: 16px ;
+    cursor: pointer ;
+    transition: border-color 0.3s ease ; /* Transition pour l'effet hover */
+}
+
+.hai-buttonComponent:hover {
+    border-color: black ; /* Contour noir au survol */
+}

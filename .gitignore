@@ -1,0 +1,25 @@
+# Dossier node_modules
+node_modules/
+
+# Fichiers de log et de débogage
+*.log
+*.tmp
+*.bak
+
+# Fichiers de cache
+.cache/
+.DS_Store # Fichiers macOS
+
+# Fichiers générés par Tailwind CSS
+hai-template-component.css
+
+# Fichiers générés par l'IDE (si applicable)
+.idea/      # IntelliJ IDEA
+.vscode/    # VS Code
+
+# Fichiers d'environnement (si applicable)
+.env
+
+# Dossier de distribution/build (si applicable)
+dist/
+build/
