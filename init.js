@@ -9,7 +9,7 @@ function renameAndModifyFiles(directory, oldKeyword, newKeyword) {
 
   files.forEach(filename => {
     // Exclude node_modules directory
-    if (filename === 'node_modules') {
+    if (filename === 'node_modules' || filename === '.git') {
       console.log(`Skipping directory: ${filename}`);
       return; // Skip to the next file
     }
