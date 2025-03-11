@@ -4,7 +4,8 @@
   "main": "HaiJulienComponentWrapper.js",
   "scripts": {
     "init":"node init.js",
-    "dev" :"npx tailwindcss -i ./styles.css -o ./hai-template-component.css --watch"
+    "dev" :"npx tailwindcss -i ./styles.css -o ./hai-template-component.css --watch",
+    "build" :"npx tailwindcss -i ./styles.css -o ./hai-template-component.css"
   },
   "keywords": [],
   "author": "",
